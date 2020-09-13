@@ -14,7 +14,7 @@ build = "build.rs"
 libc = "0.2.70"
 
 [build-dependencies]
-bindgen = "0.53.2"
+bindgen2 = {git = "https://github.com/fospring/rust-bindgen.git", branch="0.53.2-dev"}
 pkg-config = "0.3.17"
 
 [features]
